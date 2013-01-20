@@ -1,0 +1,23 @@
+<package>
+    <name>executive_smach</name>
+    <version>1.3.0</version>
+    <description>
+        The executive_smach stack contains the SMACH library, together
+        with tools for introspection and a ROS integration package.
+    </description>
+    <author>Jon Bohren, Wim Meeussen</author>
+    <maintainer email="contradict@gmail.com">contradict</maintainer>
+    <license>BSD</license>  
+    <url>https://github.com/contradict/executive_smach</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <run_depend>smach</run_depend>
+    <run_depend>smach_msgs</run_depend>
+    <run_depend>smach_ros</run_depend>
+
+    <export>
+        <metapackage/>
+    </export>
+
+</package>
